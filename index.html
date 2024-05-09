@@ -25,17 +25,17 @@
 
         }
 
-        h1,
-        ul,
-        li {
-            display: inline;
-        }
+       
+        
 
         .name {
             margin-left: 10%;
         }
 
         ul {
+            display: flex;
+            gap:20px;
+            list-style-type: none;
             margin-left: 50%;
             cursor: pointer;
             font-size: 20px;
@@ -264,8 +264,8 @@
         <h1 class="name"> Hemapriya </h1>
         <ul>
             <li> <a href="#parent" id="nav" style="text-decoration: none;"> Home | </a> </li>
-            <li> <a href="#student" id="nav" style="text-decoration: none;"> About | </a> </li>
-            <li> <a href="#project" id="nav" style="text-decoration: none;"> projects | </a> </li>
+            <li> <a href="#student1" id="nav" style="text-decoration: none;"> About | </a> </li>
+            <li> <a href="#proj" id="nav" style="text-decoration: none;"> projects | </a> </li>
             <li> <a href="#contactme" id="nav" style="text-decoration: none;"> contact </a></li>
         </ul>
     </div>
@@ -286,7 +286,7 @@
             </div>
         </div>
     </div>
-    <div>
+    <div id="student1">
         <h2 style="text-align:center;">ABOUT</h2>
         <div id="student">
             <div class="about">
@@ -314,7 +314,7 @@
     </div>
 
 
-    <div class="proj">
+    <div class="proj" id="proj">
         <h2 style="text-align: center;"> My projects </h2>
         <div id="project">
             <div class="proj1">
